@@ -1,1 +1,0 @@
-console.log("SKM Supermarket Acharapakkam – Website loaded successfully");
