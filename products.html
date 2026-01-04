@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products | SKM SUPERMARKET</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1>🛒 SKM SUPERMARKET</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="admin.html">Admin</a>
+  </nav>
+</header>
+
+<section class="page-title">
+  <h2>Product Categories</h2>
+  <p>Click a category to learn more</p>
+</section>
+
+<section class="categories">
+  <div class="category-card" onclick="showCategory('Fruits')">
+    <img src="images/fruits.jpg" alt="Fruits">
+    <h3>Fruits</h3>
+  </div>
+
+  <div class="category-card" onclick="showCategory('Vegetables')">
+    <img src="images/vegetables.jpg" alt="Vegetables">
+    <h3>Vegetables</h3>
+  </div>
+
+  <div class="category-card" onclick="showCategory('Groceries')">
+    <img src="images/groceries.jpg" alt="Groceries">
+    <h3>Groceries</h3>
+  </div>
+
+  <div class="category-card" onclick="showCategory('Dairy')">
+    <img src="images/dairy.jpg" alt="Dairy Products">
+    <h3>Dairy Products</h3>
+  </div>
+
+  <div class="category-card" onclick="showCategory('Household')">
+    <img src="images/household.jpg" alt="House Hold Things">
+    <h3>House Hold Things</h3>
+  </div>
+</section>
+
+<section class="category-info" id="categoryInfo" style="text-align:center; padding:40px; font-size:18px; color:#333;">
+  <p>Click a category to see more information.</p>
+</section>
+
+<script src="js/products.js"></script>
+</body>
+</html>
